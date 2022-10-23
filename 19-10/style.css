@@ -1,39 +1,31 @@
-#heading{
-    margin-left: 40%;
-}
-#submitButton{
-    margin-left: 25%;
-}
-#HCIbold{
-    font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-#memesital{
-    font-style: italic;
-   /* font-family: ;*/
-}
-#rowBackground{
-    background-color: #EDEDED;
-}
-#userInterface{
-    color: #68abee;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.blueHeadline{
+    font-size: large;
+    color:rgb(35, 35, 99);
+    background-color: rgb(48, 141, 187);
 }
 
-.headingBackground{
-    background-color:#B4CDE6;
-    color: #1746A2;
-}
-.Tabledatacolspan{
-    padding-left: 40%;
-    font-weight: bold;
-}
-.tableCellblue{
-    color:#68abee ;
+
+
+.tabeleData{
+font-size: 15px;
+    font-weight:bold;
+    color:black;
+    text-align: center;
 
 }
-table, td, th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 4px;
+
+.blue{
+    color: rgb(93, 178, 232);
+
+}
+
+table, th, td {
+ border: 2px solid black;
+ border-collapse: collapse;
+
+
+}
+
+#backGround{
+    background-color: rgb(237, 208, 173);
 }
