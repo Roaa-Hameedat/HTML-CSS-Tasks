@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>task1 24-10</title>
     <style>
     .main{
         display: flex;
@@ -14,6 +14,37 @@
     .main div{
         flex-grow:1 ;
     }
+    @media(max-width:480px){
+        .main{
+        display: block;
+        border: 15px solid rgb(223, 174, 81);
+        height: 700px;
+    }
+    .main div{
+       
+        font-size: larger;
+        text-align: center;
+        height: 78px;
+        flex-grow:1 ;
+    }
+    }
+    @media (min-width:481px) and (max-width:768px){
+        .main{
+        display:block;
+        border: 10px solid rgb(223, 174, 81);
+        height: 700px;
+    }
+    .main div{
+        margin: 10px;
+        display: inline-block;
+       width: 342px;
+        font-size: larger;
+        text-align: center;
+        height: 120px;
+        flex-grow:1 ;
+    }
+    }
+
     </style>
 </head>
 <body>
